@@ -4,39 +4,39 @@ const initialState = {
 
     orders:[
         {   
-            date:'Минкультуры',
-            order:'	http://mkrf.ru/',
+            source:'Минкультуры',
+            url:'	http://mkrf.ru/',
             comment:''
         }, 
         {
-            date:'Минпросвещения',
-            order:'http://edu.gov.ru/	',
+            source:'Минпросвещения',
+            url:'http://edu.gov.ru/	',
             comment:''
         },
         
         {
-            date:'Минкомсвязь',
-            order:' http://minsvyaz.ru/ru/	',
+            source:'Минкомсвязь',
+            url:' http://minsvyaz.ru/ru/	',
             comment:''
         },
         {
-            date:'Минэкономразвития',
-            order:'http://economy.gov.ru/minec/main	',
+            source:'Минэкономразвития',
+            url:'http://economy.gov.ru/minec/main	',
             comment:''
         },
         {
-            date:'Роскомнадзор',
-            order:'	http://rkn.gov.ru/	',
+            source:'Роскомнадзор',
+            url:'	http://rkn.gov.ru/	',
             comment:''
         },
         {
-            date:'Росмолодёжь',
-            order:'	http://fadm.gov.ru',
+            source:'Росмолодёжь',
+            url:'	http://fadm.gov.ru',
             comment:''
         },
         {
-            date:'Bk',
-            order:'https://vk.com	',
+            source:'Bk',
+            url:'https://vk.com	',
             comment:''
         }
     ]
