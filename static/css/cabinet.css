@@ -1,0 +1,78 @@
+body{
+    background-color: antiquewhite;
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    padding: 0;
+    
+}
+
+.btn-add{
+    position: fixed;
+    top:50px;
+    right: 50px;
+    border-radius: 50%;
+  
+}
+.w-100{
+    height: 250px !important;
+}
+
+.content{
+    height: 100%;
+    width: 75%;
+    padding: 35px;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.712) 2px 3px 3px;
+    background-color: #fff;
+    color: #000;
+    
+}
+.kartinki{
+    width: 500px;
+    height: 60%;
+    align-items: center;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    width: 130%;
+}
+.textOtchet{
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.btn-secondary{
+    width: 115px;
+    margin: 20px 50px;
+}
+#calendar3 {
+    width: 100%;
+    font: monospace;
+    line-height: 1.2em;
+    font-size: 15px;
+    text-align: center;
+  }
+#calendar3 thead tr:last-child {
+    font-size: small;
+    color: rgb(85, 85, 85);
+  }
+#calendar3 tbody td {
+    color: rgb(44, 86, 122);
+  }
+#calendar3 tbody td:nth-child(n+6), #calendar3 .holiday {
+    color: rgb(231, 140, 92);
+  }
+#calendar3 tbody td.today {
+    outline: 3px solid red;
+  }
+.calendar{
+      width: 40%;
+}
